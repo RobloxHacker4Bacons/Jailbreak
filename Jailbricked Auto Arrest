@@ -117,12 +117,12 @@ local function GoToNew()
                 if syn then
                     syn.queue_on_teleport(
                         crossServerSettings ..
-                            " loadstring(game:HttpGet('https://raw.githubusercontent.com/RobloxHacker4Bacons/Jailbreak-Scripts/main/Jailbricked%20Auto%20Arrest'))()"
+                            " loadstring(game:HttpGet('https://github.com/RobloxHacker4Bacons/Jailbreak/blob/main/Jailbricked%20Auto%20Arrest'))()"
                     )
                 else
                     queue_on_teleport(
                         crossServerSettings ..
-                            " loadstring(game:HttpGet('https://raw.githubusercontent.com/RobloxHacker4Bacons/Jailbreak-Scripts/main/Jailbricked%20Auto%20Arrest'))()"
+                            " loadstring(game:HttpGet('https://github.com/RobloxHacker4Bacons/Jailbreak/blob/main/Jailbricked%20Auto%20Arrestt'))()"
                     )
                 end
             end
