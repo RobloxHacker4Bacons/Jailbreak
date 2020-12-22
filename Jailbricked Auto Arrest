@@ -1,5 +1,4 @@
 local Hashes = {
-
      EquipItem = "d6843dd6",
      Eject = "b2d56cf6",
      SendVault = "b1127c59",
@@ -11,22 +10,23 @@ local Hashes = {
      EatDonut = "dbafb82e",
      EnterVehicle = "aa399d99",
      LockCar = "dd6d1013"
-
 }
 
-local previousHashes = {
 
-    EquipItem = "e7217f44",
-    Eject = "c09ce270",
-    SendVault = "d0620d65",
-    TeamChange = "bb200d0f",
-    Arrest = "ead4aec1",
-    SpawnVehicle = "e054efff",
-    RopeAttach = "d5d8e556",
-    GetDonut = "bb711e5c",
-    EatDonut = "ce153c3b",
-    EnterVehicle = "b3bf54da",
-    LockCar = "e270edeb"
+local previousHashes = {
+    -- OLD 22.12.2020
+
+    EquipItem = "f0427af8",
+     Eject = "b6726516",
+     SendVault = "a4ab9cf2",
+     TeamChange = "c179c205",
+     Arrest = "c634c17d",
+     SpawnVehicle = "b320505b",
+     RopeAttach = "e4eaa1d9",
+     GetDonut = "ee0ba738",
+     EatDonut = "aa2edf82",
+     EnterVehicle = "feb9ac57",
+     LockCar = "dd21379f"
     --
 }
 
@@ -116,12 +116,12 @@ local function GoToNew()
                 if syn then
                     syn.queue_on_teleport(
                         crossServerSettings ..
-                            " loadstring(game:HttpGet('https://raw.githubusercontent.com/RobloxHacker4Bacons/Jailbreak/main/Jailbricked%20Auto%20Arrest'))()"
+                            " loadstring(game:HttpGet('https://raw.githubusercontent.com/Gork3m/Jailbricked/master/ArrestFarm.lua'))()"
                     )
                 else
                     queue_on_teleport(
                         crossServerSettings ..
-                            " loadstring(game:HttpGet('https://raw.githubusercontent.com/RobloxHacker4Bacons/Jailbreak/main/Jailbricked%20Auto%20Arrest'))()"
+                            " loadstring(game:HttpGet('https://raw.githubusercontent.com/Gork3m/Jailbricked/master/ArrestFarm.lua'))()"
                     )
                 end
             end
@@ -557,7 +557,7 @@ subtitle.BorderSizePixel = 0
 subtitle.Position = UDim2.new(0, 0, 1, 0)
 subtitle.Size = UDim2.new(0, 313, 0, 24)
 subtitle.Font = Enum.Font.SourceSansBold
-subtitle.Text = "https://discord.gg/jailbricked"
+subtitle.Text = "Edited By Bacon"
 subtitle.TextColor3 = Color3.fromRGB(199, 195, 203)
 subtitle.TextSize = 15.000
 subtitle.TextStrokeColor3 = Color3.fromRGB(70, 11, 86)
@@ -979,7 +979,7 @@ if isjbupdated then
             game.StarterGui:SetCore(
                 "ChatMakeSystemMessage",
                 {
-                    Text = "It seems like jailbreak has updated. You can not use Jailbricked until Melony fixes it.",
+                    Text = "It seems like jailbreak has updated. You can not use Jailbricked until Bacon fixes it. Contact Bacon#4421 or https://discord.gg/9SRpYfp3xH",
                     Color = Color3.new(1, 0, 0)
                 }
             )
