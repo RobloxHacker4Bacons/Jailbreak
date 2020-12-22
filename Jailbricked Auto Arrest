@@ -15,7 +15,6 @@ local Hashes = {
 }
 
 local previousHashes = {
-    -- OLD 11.12.2020
 
     EquipItem = "e7217f44",
     Eject = "c09ce270",
