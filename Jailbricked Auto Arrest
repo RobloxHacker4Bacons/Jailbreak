@@ -1,16 +1,16 @@
 local Hashes = {
 
-    EquipItem = "b01d8268",
-    Eject = "fda822a4",
-    SendVault = "d7adfec1",
-    TeamChange = "ffab989d",
-    Arrest = "c05c204f",
-    SpawnVehicle = "c9995c06",
-    RopeAttach = "f93f08ec",
-    GetDonut = "e5867ca1",
-    EatDonut = "ee7bb8c9",
-    EnterVehicle = "cf7fb131",
-    LockCar = "ffa0a153",
+     EquipItem = "d6843dd6",
+     Eject = "b2d56cf6",
+     SendVault = "b1127c59",
+     TeamChange = "bbe6909a",
+     Arrest = "b0eaab07",
+     SpawnVehicle = "e8ed25f8",
+     RopeAttach = "ff61e91f",
+     GetDonut = "b2406d36",
+     EatDonut = "dbafb82e",
+     EnterVehicle = "aa399d99",
+     LockCar = "dd6d1013"
 
 }
 
